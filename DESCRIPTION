@@ -1,0 +1,18 @@
+Package: parallelExe
+Title: Run executables in parallel
+Version: 0.0.1
+Author: Laurence Kell
+Description: Utilities for running binary executables in parallel
+Depends:
+    R(>= 3.0.1),
+    parallel(>= 3.0.1),
+    foreach(>= 1.4.1),
+Maintainer: Laurence Kell <laurie.kell@iccat.int>
+Collate:
+    'parallelExe-generic.R'
+    'parallelExe-functions.R'
+    'parallelExe-methods.R'
+    'parallelExe-mfcl.R'
+License: GPL-2
+LazyLoad: Yes
+LazyData: No

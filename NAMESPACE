@@ -1,0 +1,8 @@
+import("parallel","foreach")
+export(set)
+export(exe)
+export(setFn)
+export(doitallFn)
+export(readDoitall)
+export(writeDoitall)
+export(scanText)
